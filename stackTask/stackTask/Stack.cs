@@ -39,5 +39,13 @@ namespace stackTask
             }
             Console.WriteLine();
         }
+        public T Peak()
+        {
+            if (list.Count > 0)
+            {
+                return list[list.Count - 1];
+            }
+            return default(T);
+        }
     }
 }
