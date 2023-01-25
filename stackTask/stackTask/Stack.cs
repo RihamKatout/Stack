@@ -8,7 +8,14 @@ namespace stackTask
 {
     public class Stack<T>
     {
-        private List<T> list;  
-
+        private List<T> list;
+        public Stack()
+        {
+            list = new List<T>();
+        }
+        public Stack(List<T> list)
+        {
+            this.list = list;
+        }
     }
 }
