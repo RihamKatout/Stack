@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace stackTask
 {
-    public class Stack<T>
+    public class MyStack<T>
     {
         private List<T> list;
-        public Stack()
+        public MyStack()
         {
             list = new List<T>();
         }
-        public Stack(List<T> list)
+        public MyStack(List<T> list)
         {
             this.list = list;
         }
