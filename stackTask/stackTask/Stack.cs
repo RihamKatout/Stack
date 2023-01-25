@@ -21,5 +21,15 @@ namespace stackTask
         {
             list.Add(value);
         }
+        public T? Pop()
+        {
+            if (list.Count > 0)
+            {
+                var returnedVal = list[list.Count - 1];
+                list.RemoveAt(list.Count - 1);
+                return returnedVal;
+            }
+            return default(T);
+        }
     }
 }
