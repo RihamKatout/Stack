@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace stackTask
 {
-    internal class Stack
+    public class Stack<T>
     {
     }
 }
