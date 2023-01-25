@@ -8,5 +8,7 @@ namespace stackTask
 {
     public class Stack<T>
     {
+        private List<T> list;  
+
     }
 }
