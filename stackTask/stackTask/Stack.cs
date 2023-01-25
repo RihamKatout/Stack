@@ -17,5 +17,9 @@ namespace stackTask
         {
             this.list = list;
         }
+        public void Push(T value)
+        {
+            list.Add(value);
+        }
     }
 }
