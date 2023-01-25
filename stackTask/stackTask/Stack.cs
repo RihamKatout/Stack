@@ -31,5 +31,13 @@ namespace stackTask
             }
             return default(T);
         }
+        public void Print()
+        {
+            foreach (T value in list)
+            {
+                Console.Write(value + " ");
+            }
+            Console.WriteLine();
+        }
     }
 }
