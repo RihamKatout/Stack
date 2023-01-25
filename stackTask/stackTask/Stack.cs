@@ -47,5 +47,9 @@ namespace stackTask
             }
             return default(T);
         }
+        public void Clear()
+        {
+            list.Clear();
+        }
     }
 }
